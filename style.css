@@ -39,3 +39,14 @@ footer {
   color: #777;
   border-top: 1px solid #ccc;
 }
+
+section a {
+  display: block;
+  margin-bottom: 8px;
+  color: #0066cc; /* opzionale: colore del link */
+  text-decoration: none; /* rimuove sottolineatura */
+}
+
+section a:hover {
+  text-decoration: underline;
+}
